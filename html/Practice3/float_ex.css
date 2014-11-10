@@ -1,0 +1,31 @@
+    body {
+        margin: 0;
+    }
+
+
+   .layer1 {
+    float: left; /* Обтекание по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 40%; /* Ширина блока */
+   }
+
+   .for_table {
+    width: 400px;
+    height: 200px;
+   }
+
+   .table_head {
+    color: #f00000;
+    text-align: center;
+   }
+
+   .table1 {
+    border: 3px  black;
+    width: 100%;
+
+    padding: 5px;
+    cellpadding: 10px;
+   }

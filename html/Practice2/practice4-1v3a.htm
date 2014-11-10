@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Подвал, прижатый к низу</title>
+    <style>
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+        .wrapper
+        {
+            min-height: 100%;
+	    	margin-bottom: -20px;
+        }
+        .buffer
+        {
+            height: 20px;
+        }
+        .footer
+        {
+            background: lightgray;
+            height: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <p style="margin: 0px">Основное содержимое</p> <!-- поле убрали, чтобы не было пустого места вверху. Попробуйте убрать этот стиль -->
+        <div class="buffer"></div>
+    </div>
+    <div class="footer">
+        Тут копирайт и контакты
+    </div>
+</body>
+</html>
